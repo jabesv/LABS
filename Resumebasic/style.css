@@ -1,0 +1,121 @@
+body{
+    background: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_Side {
+    width:400px;
+    height: 1100px;
+    background: #003147;
+    float:left;
+    margin:1px;
+    padding: 40px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2);
+}
+
+.profileText .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.profileText h2 span {
+    font-size: 20px;
+    font-weight: 300 ;
+}
+
+.contactInfo {
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    }
+
+.title {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position:left;
+    list-style:circle;
+    margin: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight:300;
+}
+
+.contactInfo.educacion{
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.contactInfo.educacion ul li {
+    color: #fff;
+    font-weight:300;
+}
+
+.right_Side {
+    width:800px;
+    height: 1100px;
+    background: #fff;
+    float:left;
+    margin: 1px;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.title2 {
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+p{
+    color: #333;
+    font-size: 20px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company {
+    min-width: 150px;
+}
+ 

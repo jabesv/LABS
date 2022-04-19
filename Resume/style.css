@@ -1,0 +1,33 @@
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    /* position: relative;  */
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff; 
+}
+
+.container .left_Side {
+    /*position: relative;*/
+    float:left;
+    width: 100%; 
+    background: #003147;
+    padding: 40px;
+ 
+}
+
+.container .right_Side {
+    /* position: relative; */
+    width: 100%; 
+    float:left;
+    background: #fff;
+    padding: 40px;
+    
+}

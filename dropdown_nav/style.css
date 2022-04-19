@@ -1,0 +1,23 @@
+.dropdown {
+    border: solid 1px red;
+    width:50px;
+}
+
+.dropdown-buttons {
+    display:none;
+}
+
+.dropdown:hover .dropdown-buttons{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.button {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+}
